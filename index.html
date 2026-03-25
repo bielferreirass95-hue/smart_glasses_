@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Glasses</title>
+    
+    <style>
+        /* ESTILO DOS LINKS COM BRILHO */
+        .menu-link {
+            text-decoration: none; 
+            color: rgb(0, 247, 255); 
+            margin: 0 40px; 
+            transition: 0.4s; 
+            font-family: sans-serif;
+            font-weight: bold;
+            font-size: 20px;
+            display: inline-block;
+        }
+
+        .menu-link:hover {
+            color: #fff;
+            text-shadow: 0 0 15px #00f7ff, 0 0 30px #00f7ff;
+            transform: scale(1.1);
+        }
+
+        /* CENTRALIZADOR DO MENU */
+        .container-menu {
+            text-align: center;
+            width: 100%;
+            margin-top: 30px;
+        }
+
+        .pula-menu {
+            border: 2px solid rgb(0, 247, 255); 
+            border-radius: 50px; 
+            display: inline-block; 
+            padding: 15px 10px;
+            background: rgba(0, 0, 0, 0.4); 
+            box-shadow: 0 0 15px rgba(0, 247, 255, 0.2);
+        }
+
+        /* EFEITO DE ROLAGEM SUAVE */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body style="background-color: rgb(4, 14, 41); margin: 0; padding: 0;">
+
+    <img width="100%" src="banner.jpeg" alt="Banner">
+
+    <div class="container-menu">
+        <div class="pula-menu">
+            <a href="#secao-home" class="menu-link">HOME</a>
+            <a href="#secao-modelos" class="menu-link">MODELOS</a>
+            <a href="#secao-assistencia" class="menu-link">ASSISTÊNCIA</a>
+            <a href="#secao-contatos" class="menu-link">CONTATOS</a>
+        </div>
+    </div>
+
+    <div id="secao-home" style="margin-top: 50px; padding: 40px; text-align: center;">
+        <h2 style="color: #00f7ff; font-family: sans-serif; text-shadow: 0 0 10px #00f7ff33;">Sua Vida, Aumentada</h2>
+        <p style="color: #f0f0f0; font-family: sans-serif; max-width: 800px; margin: 20px auto; font-size: 1.1rem; line-height: 1.6;">
+            Não apenas veja o que está à sua frente. Sinta a inteligência integrada ao seu olhar. 
+            Com os Smart Glasses, a informação flui naturalmente, traduzindo idiomas, guiando seus passos 
+            e organizando sua vida em tempo real. Bem-vindo à era da vida aumentada.
+        </p>
+    </div>  
+    <div id="secao-modelos" style="margin-top: 50px; padding: 40px; text-align: center;">
+    <h2 style="color: #00f7ff; font-family: sans-serif; text-shadow: 0 0 10px #00f7ff33; margin-bottom: 30px;">NOSSOS MODELOS</h2>
+
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; align-items: flex-start;">
+
+        <div style="width: 350px; background: rgba(255, 255, 255, 0.05); padding: 20px; border-radius: 20px; border: 1px solid rgba(0, 247, 255, 0.1);">
+            <img src="oculos1.jpeg" style="width: 100%; height: 250px; object-fit: cover; border-radius: 20px; box-shadow: 0 0 20px #00f7ff33;">
+            <p style="color: #00f7ff; font-family: sans-serif; margin-top: 15px; font-weight: bold; text-transform: uppercase;">Modelo Vision Pro</p>
+            <p style="color: #f0f0f0; font-family: sans-serif; font-size: 0.9rem; min-height: 45px;">Foco em Realidade Aumentada e Navegação.</p>
+            <h2 style="color: #ffd700; font-family: sans-serif; margin: 15px 0;">R$ 4.999,00</h2>
+            <a href="comprar_oculos_pro.html" style="display: inline-block; padding: 12px 30px; background: transparent; border: 2px solid #00f7ff; color: #00f7ff; text-decoration: none; font-family: sans-serif; font-weight: bold; border-radius: 30px; box-shadow: 0 0 10px #00f7ff; transition: 0.3s;" onmouseover="this.style.background='#00f7ff'; this.style.color='#040e29';" onmouseout="this.style.background='transparent'; this.style.color='#00f7ff';">Comprar Agora</a>
+        </div>
+
+        <div style="width: 350px; background: rgba(255, 255, 255, 0.05); padding: 20px; border-radius: 20px; border: 1px solid rgba(0, 247, 255, 0.1);">
+            <img src="oculos2.jpeg" style="width: 100%; height: 250px; object-fit: cover; border-radius: 20px; box-shadow: 0 0 20px #00f7ff33;">
+            <p style="color: #00f7ff; font-family: sans-serif; margin-top: 15px; font-weight: bold; text-transform: uppercase;">Modelo Translate It</p>
+            <p style="color: #f0f0f0; font-family: sans-serif; font-size: 0.9rem; min-height: 45px;">Tradução instantânea de mais de 50 idiomas.</p>
+            <h2 style="color: #ffd700; font-family: sans-serif; margin: 15px 0;">R$ 3.499,00</h2>
+            <a href="comprar_oculos_translate.html" style="display: inline-block; padding: 12px 30px; background: transparent; border: 2px solid #00f7ff; color: #00f7ff; text-decoration: none; font-family: sans-serif; font-weight: bold; border-radius: 30px; box-shadow: 0 0 10px #00f7ff; transition: 0.3s;" onmouseover="this.style.background='#00f7ff'; this.style.color='#040e29';" onmouseout="this.style.background='transparent'; this.style.color='#00f7ff';">Comprar Agora</a>
+        </div>
+
+        <div style="width: 350px; background: rgba(255, 255, 255, 0.05); padding: 20px; border-radius: 20px; border: 1px solid rgba(0, 247, 255, 0.1);">
+            <img src="oculos3.jpeg" style="width: 100%; height: 250px; object-fit: cover; border-radius: 20px; box-shadow: 0 0 20px #00f7ff33;">
+            <p style="color: #00f7ff; font-family: sans-serif; margin-top: 15px; font-weight: bold; text-transform: uppercase;">Modelo Slim Tech</p>
+            <p style="color: #f0f0f0; font-family: sans-serif; font-size: 0.9rem; min-height: 45px;">Design minimalista para o uso cotidiano.</p>
+            <h2 style="color: #ffd700; font-family: sans-serif; margin: 15px 0;">R$ 2.999,00</h2>
+            <a href="comprar_oculos_basico.html" style="display: inline-block; padding: 12px 30px; background: transparent; border: 2px solid #00f7ff; color: #00f7ff; text-decoration: none; font-family: sans-serif; font-weight: bold; border-radius: 30px; box-shadow: 0 0 10px #00f7ff; transition: 0.3s;" onmouseover="this.style.background='#00f7ff'; this.style.color='#040e29';" onmouseout="this.style.background='transparent'; this.style.color='#00f7ff';">Comprar Agora</a>
+        </div>
+
+    </div>
+</div>
+
+<div id="secao-assistencia" style="margin-top: 50px; padding: 40px; text-align: center;">
+    <h2 style="color: #00f7ff; font-family: sans-serif; text-shadow: 0 0 10px #00f7ff33;">SUPORTE E ASSISTÊNCIA</h2>
+    <p style="color: #f0f0f0; font-family: sans-serif; max-width: 800px; margin: 20px auto; font-size: 1.1rem; line-height: 1.6;">
+        Nossa equipe de suporte está pronta para ajudar você a aproveitar ao máximo seus Smart Glasses. 
+        Desde dúvidas técnicas até orientações de uso, estamos aqui para garantir que sua experiência seja perfeita.
+    </p>
+      <h2 style="color: #00f7ff; font-family: sans-serif; text-shadow: 0 0 10px #00f7ff33;">Preencha os campos  abaixo e entraremos em contato o mais breve possível.</h2>
+      <form style="max-width: 500px; margin: 0 auto; text-align: left; background: rgba(255, 255, 255, 0.05); padding: 30px; border-radius: 20px; border: 1px solid rgba(0, 247, 255, 0.2); box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+        
+        <label style="color: #00f7ff; font-family: sans-serif; font-weight: bold; display: block; margin-bottom: 8px;">Seu Nome:</label>
+        <input type="text" placeholder="Digite seu nome completo" style="width: 100%; padding: 12px; margin-bottom: 20px; border-radius: 8px; border: 1px solid #333; background: #0a1e35; color: white; outline: none; box-sizing: border-box;">
+
+        <label style="color: #00f7ff; font-family: sans-serif; font-weight: bold; display: block; margin-bottom: 8px;">E-mail para contato:</label>
+        <input type="email" placeholder="exemplo@email.com" style="width: 100%; padding: 12px; margin-bottom: 20px; border-radius: 8px; border: 1px solid #333; background: #0a1e35; color: white; outline: none; box-sizing: border-box;">
+
+        <label style="color: #00f7ff; font-family: sans-serif; font-weight: bold; display: block; margin-bottom: 8px;">Sua Dúvida:</label>
+        <textarea placeholder="Escreva aqui sua pergunta..." rows="4" style="width: 100%; padding: 12px; margin-bottom: 20px; border-radius: 8px; border: 1px solid #333; background: #0a1e35; color: white; outline: none; resize: none; box-sizing: border-box;"></textarea>
+
+        <button type="submit" style="width: 100%; padding: 15px; background: #00f7ff; color: #040e29; border: none; border-radius: 10px; font-weight: bold; cursor: pointer; text-transform: uppercase; transition: 0.3s; box-shadow: 0 0 15px rgba(0, 247, 255, 0.4);" 
+                onmouseover="this.style.boxShadow='0 0 25px #00f7ff'; this.style.transform='scale(1.02)';" 
+                onmouseout="this.style.boxShadow='0 0 15px rgba(0, 247, 255, 0.4)'; this.style.transform='scale(1)';">
+            Enviar Mensagem
+        </button>
+    </form>
+</div>
+<div id="secao-contatos" style="margin-top: 50px; padding: 40px; text-align: center;">
+    <h2 style="color: #00f7ff; font-family: sans-serif; text-shadow: 0 0 10px #00f7ff33;">ENTRE EM CONTATO</h2>
+    <div id="secao-contatos" style="margin-top: 50px; padding: 60px 20px; text-align: center; background: rgba(0, 0, 0, 0.4); border-top: 2px solid rgba(0, 247, 255, 0.3);">
+    <h2 style="color: #00f7ff; font-family: sans-serif; text-shadow: 0 0 10px #00f7ff; font-size: 2rem; margin-bottom: 40px;">ENTRE EM CONTATO</h2>
+
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 50px;">
+
+        <a href="https://www.instagram.com/smart._.glasses?igsh=eDNscm83aHRyOG5z" target="_blank" style="text-decoration: none; display: flex; flex-direction: column; align-items: center; transition: transform 0.3s;">
+            <img src="logoinsta-removebg-preview.png" alt="Instagram" style="width: auto; height: 70px; filter: drop-shadow(0 0 10px rgba(0, 247, 255, 0.5)); transition: filter 0.3s;"
+                 onmouseover="this.style.filter='drop-shadow(0 0 15px rgba(255, 255, 255, 0.8))'"
+                 onmouseout="this.style.filter='drop-shadow(0 0 10px rgba(0, 247, 255, 0.5))'">
+            <p style="color: #f0f0f0; font-family: sans-serif; font-size: 1rem; margin-top: 15px;">@smart._.glasses</p>
+        </a>
+
+ <a href="https://wa.me/551130429000?text=Olá!%20Estou%20no%20site%20da%20Smart%20Glasses%20e%20gostaria%20de%20mais%20informações." target="_blank" style="text-decoration: none; display: flex; flex-direction: column; align-items: center; transition: transform 0.3s;">
+    <img src="logowhats-removebg-preview.png" alt="WhatsApp" style="width: auto; height: 70px; filter: drop-shadow(0 0 10px rgba(0, 247, 255, 0.5)); transition: 0.3s;"
+         onmouseover="this.style.transform='scale(1.1)'; this.style.filter='drop-shadow(0 0 20px #00f7ff)';"
+         onmouseout="this.style.transform='scale(1)'; this.style.filter='drop-shadow(0 0 10px rgba(0, 247, 255, 0.5))';">
+    <p style="color: #f0f0f0; font-family: sans-serif; font-size: 1rem; margin-top: 10px; font-weight: 300;">(11) 3042-9000</p>
+</a>
+
+<a href="mailto:contato@smartglasses.com.br?subject=Dúvida%20sobre%20Smart%20Glasses&body=Olá,%20equipe%20Smart%20Glasses!" style="text-decoration: none; display: flex; flex-direction: column; align-items: center; transition: transform 0.3s;">
+    
+    <img src="logoemail-removebg-preview (1).png" alt="E-mail" style="width: auto; height: 70px; filter: drop-shadow(0 0 10px rgba(0, 247, 255, 0.5)); transition: 0.3s;"
+         onmouseover="this.style.transform='scale(1.1)'; this.style.filter='drop-shadow(0 0 20px #ffffff)';"
+         onmouseout="this.style.transform='scale(1)'; this.style.filter='drop-shadow(0 0 10px rgba(0, 247, 255, 0.5))';">
+    
+    <p style="color: #f0f0f0; font-family: sans-serif; font-size: 1rem; margin-top: 10px; font-weight: 300;">contato@smartglasses.com.br</p>
+</a>
+    </div>
+</div>
+</body>
+</html>
